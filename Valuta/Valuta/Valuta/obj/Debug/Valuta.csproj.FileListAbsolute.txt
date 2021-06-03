@@ -1,0 +1,15 @@
+D:\Suli\Programozás\Valuta\Valuta\Valuta\bin\Debug\Valuta.exe.config
+D:\Suli\Programozás\Valuta\Valuta\Valuta\bin\Debug\Valuta.exe
+D:\Suli\Programozás\Valuta\Valuta\Valuta\bin\Debug\Valuta.pdb
+D:\Suli\Programozás\Valuta\Valuta\Valuta\obj\Debug\Valuta.csprojAssemblyReference.cache
+D:\Suli\Programozás\Valuta\Valuta\Valuta\obj\Debug\MainWindow.g.cs
+D:\Suli\Programozás\Valuta\Valuta\Valuta\obj\Debug\App.g.cs
+D:\Suli\Programozás\Valuta\Valuta\Valuta\obj\Debug\Valuta_MarkupCompile.cache
+D:\Suli\Programozás\Valuta\Valuta\Valuta\obj\Debug\Valuta_MarkupCompile.lref
+D:\Suli\Programozás\Valuta\Valuta\Valuta\obj\Debug\MainWindow.baml
+D:\Suli\Programozás\Valuta\Valuta\Valuta\obj\Debug\Valuta.g.resources
+D:\Suli\Programozás\Valuta\Valuta\Valuta\obj\Debug\Valuta.Properties.Resources.resources
+D:\Suli\Programozás\Valuta\Valuta\Valuta\obj\Debug\Valuta.csproj.GenerateResource.cache
+D:\Suli\Programozás\Valuta\Valuta\Valuta\obj\Debug\Valuta.csproj.CoreCompileInputs.cache
+D:\Suli\Programozás\Valuta\Valuta\Valuta\obj\Debug\Valuta.exe
+D:\Suli\Programozás\Valuta\Valuta\Valuta\obj\Debug\Valuta.pdb

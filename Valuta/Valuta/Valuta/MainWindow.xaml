@@ -1,0 +1,29 @@
+﻿<Window x:Class="Valuta.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Valuta"
+        mc:Ignorable="d"
+        Title="Valuta átváltó" Height="450" Width="800" Icon="images.png" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFA4A8A7">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="162*"/>
+            <ColumnDefinition Width="24*"/>
+            <ColumnDefinition Width="211*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="lista" Height="259" VerticalAlignment="Top" Margin="55,138,26,0" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="ft" HorizontalAlignment="Left" Height="28" Margin="70,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" TextChanged="ft_TextChanged" Background="White"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" Height="28" Margin="22,73,0,0" VerticalAlignment="Top" Width="92" Foreground="Black" BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Button x:Name="eur" Content="Euró" HorizontalAlignment="Left" Height="28" Margin="189,138,0,0" VerticalAlignment="Top" Width="158" Click="eur_Click" Grid.Column="2"/>
+        <Button x:Name="chf" Content="Svájci frank" HorizontalAlignment="Left" Height="28" Margin="189,238,0,0" VerticalAlignment="Top" Width="158" Click="chf_Click" Grid.Column="2"/>
+        <Button x:Name="usd" Content="USA dollár" HorizontalAlignment="Left" Height="28" Margin="189,188,0,0" VerticalAlignment="Top" Width="158" Click="usd_Click" Grid.Column="2"/>
+        <Label Content="Forint" HorizontalAlignment="Left" Height="26" Margin="22,49,0,0" VerticalAlignment="Top" Width="44" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label x:Name="penznem" Content="" HorizontalAlignment="Left" Height="29" Margin="70,38,0,0" VerticalAlignment="Top" Width="75" Foreground="Black" Background="#00000000" BorderBrush="Black" BorderThickness="1"/>
+        <Button x:Name="ron" Content="Román lej" HorizontalAlignment="Left" Height="28" Margin="189,338,0,0" VerticalAlignment="Top" Width="158" Click="ron_Click" Grid.Column="2"/>
+        <Button x:Name="gbp" Content="Angol font" HorizontalAlignment="Left" Height="28" Margin="189,288,0,0" VerticalAlignment="Top" Width="158" Click="gbp_Click" Grid.Column="2"/>
+        <Label Content="Előzmények" HorizontalAlignment="Left" Height="24" Margin="55,114,0,0" VerticalAlignment="Top" Width="291" Background="#FF5D5D5D" Foreground="White" BorderBrush="Black" Grid.ColumnSpan="2"/>
+        <Button x:Name="reset" Content="Reset" Grid.Column="2" HorizontalAlignment="Left" Height="73" Margin="179,28,0,0" VerticalAlignment="Top" Width="179" FontSize="48" Click="reset_Click"/>
+
+    </Grid>
+</Window>
